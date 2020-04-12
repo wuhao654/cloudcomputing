@@ -1,0 +1,10 @@
+runtime: php
+env: flex
+runtime_config:
+    document_root: .
+env_variables:
+    mysql_user: "root"
+    mysql_password: "111111"
+    mysql_dsn: "mysql:dbname=pension;unix_socket=/cloudsql/cloud-computing-project-270108:us-central1:userinfo"
+beta_settings:
+    cloud_sql_instance: "cloud-computing-project-270108:us-central1:userinfo"
